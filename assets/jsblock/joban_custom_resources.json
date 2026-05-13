@@ -1,0 +1,30 @@
+{
+  "pids_images": [
+    {
+      "id": "pids_tut",
+      "name": "LRT Pids",
+      "scriptFiles": ["jsblock:scripts/pids_tut.js"]
+    },
+    {
+      "id": "dyna_dyna",
+      "name": "Dyna Pids",
+      "scriptFiles": ["jsblock:dynamic_pids/scripts/main.js"]
+    },
+    {
+      "id": "pids_topia",
+      "name": "Topia PIDS",
+      "scriptFiles": ["jsblock:scripts/topia_pids.js"]
+    },
+    {
+      "id": "pids_la",
+      "name": "Los Angles Metro PIDS",
+      "scriptFiles": ["jsblock:scripts/pids_la.js"]
+    },
+    {
+      "id": "awt",
+      "name": "AWT PIDS TEST",
+      "scriptFiles": ["jsblock:scripts/awttest.js"]
+    }
+    
+  ]
+}
