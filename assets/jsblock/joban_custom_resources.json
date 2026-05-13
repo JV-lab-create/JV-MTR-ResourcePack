@@ -8,7 +8,7 @@
     },
     {
       "id": "dyna_dyna",
-      "name": "Dyna Pids",
+      "name": "Dynamic Pids",
       "thumbnail": "jsblock:textures/lrtpids.png",
       "scriptFiles": ["jsblock:dynamic_pids/scripts/main.js"]
     },
