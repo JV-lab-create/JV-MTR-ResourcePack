@@ -1388,7 +1388,29 @@
             "bogie2Position": 1
         }
   ],
-  "signs": [],
+  "signs": [
+    {
+	    "id": "sr_custom_sign",
+	    "textureResource": "mtr:sign/sp_rl_logo.png",
+	    "customText": "生成軌道|Spawn Rail",
+	    "small": true,
+	    "flipCustomText": false
+    },
+    {
+	    "id": "sr_custom_sign_flip",
+	    "textureResource": "mtr:sign/sp_rl_logo.png",
+	    "customText": "生成軌道|Spawn Rail",
+	    "small": true,
+	    "flipCustomText": true
+    },
+    {
+	    "id": "sr_custom_sign_icon_only",
+	    "textureResource": "mtr:sign/sp_rl_logo.png",
+	    "customText": "",
+	    "small": true,
+	    "flipCustomText": true
+    }
+  ],
   "rails": [],
   "objects": [],
   "lifts": []
