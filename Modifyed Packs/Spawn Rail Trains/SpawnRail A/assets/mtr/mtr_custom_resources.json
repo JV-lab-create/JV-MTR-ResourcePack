@@ -1,0 +1,225 @@
+{
+    "vehicles": [
+        {
+            "id": "stadler_flirt_3_spawn_railtrailer",
+            "name": "Spawn Rail Stadler FLIRT 3 Trailer",
+            "color": "CC0605",
+            "transportMode": "TRAIN",
+            "length": 16,
+            "width": 2,
+            "bogie1Position": -6,
+            "bogie2Position": 6,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "A Stadler FLIRT 3 adaptation of the DB BR 423 created as reference to the unique train on Szandor's former daily commute",
+            "wikipediaArticle": "DBAG_Class_423",
+            "tags": [
+                "family:br_423",
+                "iso_3166:DE",
+                "doors:3",
+                "type:trailer"
+            ],
+            "models": [
+                {
+                    "modelResource": "mtr:models/vehicle/br_423.bbmodel",
+                    "textureResource": "mtr:train/stadler_flirt_3_spawn_rail.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/br_423_common.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/br_423.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:models/vehicle/br_423.bbmodel",
+                    "textureResource": "mtr:train/stadler_flirt_3_spawn_rail.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/br_423_end_1.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/br_423.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:models/vehicle/br_423.bbmodel",
+                    "textureResource": "mtr:train/stadler_flirt_3_spawn_rail.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/br_423_end_2.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/br_423.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+                    "textureResource": "mtr:textures/vehicle/bogie_1.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/origin.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+                    "textureResource": "mtr:textures/vehicle/bogie_1.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/origin.json",
+                    "flipTextureV": false
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "sf3",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 0,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0.5
+        },
+        {
+            "id": "stadler_flirt_3_spawn_railcab_1",
+            "name": "Spawn Rail Stadler FLIRT 3 Forward Cab",
+            "color": "CC0605",
+            "transportMode": "TRAIN",
+            "length": 16,
+            "width": 2,
+            "bogie1Position": -6,
+            "bogie2Position": 6,
+            "couplingPadding1": 2.5,
+            "couplingPadding2": 0,
+            "description": "A Stadler FLIRT 3 adaptation of the DB BR 423 created as reference to the unique train on Szandor's former daily commute",
+            "wikipediaArticle": "DBAG_Class_423",
+            "tags": [
+                "family:br_423",
+                "iso_3166:DE",
+                "doors:3",
+                "type:cab_1"
+            ],
+            "models": [
+                {
+                    "modelResource": "mtr:models/vehicle/br_423.bbmodel",
+                    "textureResource": "mtr:train/stadler_flirt_3_spawn_rail.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/br_423_common.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/br_423.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:models/vehicle/br_423.bbmodel",
+                    "textureResource": "mtr:train/stadler_flirt_3_spawn_rail.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/br_423_head_1.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/br_423.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:models/vehicle/br_423.bbmodel",
+                    "textureResource": "mtr:train/stadler_flirt_3_spawn_rail.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/br_423_end_2.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/br_423.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+                    "textureResource": "mtr:textures/vehicle/bogie_1.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/origin.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+                    "textureResource": "mtr:textures/vehicle/bogie_1.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/origin.json",
+                    "flipTextureV": false
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "sf3",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 0,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0.5
+        },
+        {
+            "id": "stadler_flirt_3_spawn_railcab_2",
+            "name": "Spawn Rail Stadler FLIRT 3 Backward cab",
+            "color": "CC0605",
+            "transportMode": "TRAIN",
+            "length": 16,
+            "width": 2,
+            "bogie1Position": -6,
+            "bogie2Position": 6,
+            "couplingPadding1": 0,
+            "couplingPadding2": 2.5,
+            "description": "A Stadler FLIRT 3 adaptation of the DB BR 423 created as reference to the unique train on Szandor's former daily commute",
+            "wikipediaArticle": "DBAG_Class_423",
+            "tags": [
+                "family:br_423",
+                "iso_3166:DE",
+                "doors:3",
+                "type:cab_2"
+            ],
+            "models": [
+                {
+                    "modelResource": "mtr:models/vehicle/br_423.bbmodel",
+                    "textureResource": "mtr:train/stadler_flirt_3_spawn_rail.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/br_423_common.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/br_423.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:models/vehicle/br_423.bbmodel",
+                    "textureResource": "mtr:train/stadler_flirt_3_spawn_rail.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/br_423_end_1.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/br_423.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:models/vehicle/br_423.bbmodel",
+                    "textureResource": "mtr:train/stadler_flirt_3_spawn_rail.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/br_423_head_2.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/br_423.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+                    "textureResource": "mtr:textures/vehicle/bogie_1.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/origin.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:models/vehicle/bogie_1.bbmodel",
+                    "textureResource": "mtr:textures/vehicle/bogie_1.png",
+                    "modelPropertiesResource": "mtr:properties/vehicle/bogie_1.json",
+                    "positionDefinitionsResource": "mtr:properties/definition/origin.json",
+                    "flipTextureV": false
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "sf3",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 0,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0.5
+        }
+    ],
+    "signs": [],
+    "objects": []
+}

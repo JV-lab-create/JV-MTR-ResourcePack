@@ -1,0 +1,232 @@
+{
+    "vehicles": [
+        {
+            "id": "mtr_custom_train_sr_class730_srt_front_cab_1",
+            "name": "Spawn Railways Class 730 Cab (Forwards)",
+            "color": "021c45",
+            "transportMode": "TRAIN",
+            "length": 24,
+            "width": 2,
+            "bogie1Position": -8.16,
+            "bogie2Position": 8.16,
+            "couplingPadding1": 1,
+            "couplingPadding2": 0,
+            "description": "Spawn Railways Class 730 (Front)",
+            "wikipediaArticle": "",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:train/sr_class730_srt/wmt_class730_mc_lnwr.obj",
+                    "textureResource": "mtr:train/sr_class730_srt/wmt_class730",
+                    "modelPropertiesResource": "mtr:train/sr_class730_srt/properties_a54047f6.json",
+                    "positionDefinitionsResource": "mtr:train/sr_class730_srt/definition_e02ffff6.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:train/sr_class730_srt/srt_class730_bb.bbmodel",
+                    "textureResource": "",
+                    "modelPropertiesResource": "mtr:train/sr_class730_srt/properties_74ace93a.json",
+                    "positionDefinitionsResource": "mtr:train/sr_class730_srt/definition_c515ef7a.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [],
+            "bogie2Models": [],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0.2,
+            "bveSoundBaseResource":"aventra",
+"legacySpeedSoundBaseResource":"",
+"legacySpeedSoundCount":115,
+"legacyUseAccelerationSoundsWhenCoasting":false,
+"legacyConstantPlaybackSpeed":false,
+"legacyDoorSoundBaseResource":"",
+"legacyDoorCloseSoundTime":1
+        },
+        {
+            "id": "mtr_custom_train_sr_class730_srt_back_cab_2",
+            "name": "Spawn Railways Class 730 Cab (Backwards)",
+            "color": "021c45",
+            "transportMode": "TRAIN",
+            "length": 24,
+            "width": 2,
+            "bogie1Position": -8.16,
+            "bogie2Position": 8.16,
+            "couplingPadding1": 0,
+            "couplingPadding2": 1,
+            "description": "Spawn Railways Class 730 (Back)",
+            "wikipediaArticle": "",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:train/sr_class730_srt/wmt_class730_mc_lnwr_back.obj",
+                    "textureResource": "mtr:train/sr_class730_srt/wmt_class730",
+                    "modelPropertiesResource": "mtr:train/sr_class730_srt/properties_80c9a40c.json",
+                    "positionDefinitionsResource": "mtr:train/sr_class730_srt/definition_80784fdb.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:train/sr_class730_srt/srt_class730_bb.bbmodel",
+                    "textureResource": "",
+                    "modelPropertiesResource": "mtr:train/sr_class730_srt/properties_d805fe71.json",
+                    "positionDefinitionsResource": "mtr:train/sr_class730_srt/definition_3005497e.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [],
+            "bogie2Models": [],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0.2,
+            "bveSoundBaseResource":"aventra",
+"legacySpeedSoundBaseResource":"",
+"legacySpeedSoundCount":115,
+"legacyUseAccelerationSoundsWhenCoasting":false,
+"legacyConstantPlaybackSpeed":false,
+"legacyDoorSoundBaseResource":"",
+"legacyDoorCloseSoundTime":1
+        },
+        {
+            "id": "mtr_custom_train_sr_class730_srt_carriage_trailer",
+            "name": "Spawn Railways Class 730 (Carriage) (Trailer)",
+            "color": "021c45",
+            "transportMode": "TRAIN",
+            "length": 25,
+            "width": 2,
+            "bogie1Position": -8.5,
+            "bogie2Position": 8.5,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "Spawn Railways Class 730 (Carriage)",
+            "wikipediaArticle": "",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:train/sr_class730_srt/wmt_class730_m_lnwr.obj",
+                    "textureResource": "mtr:train/sr_class730_srt/wmt_class730",
+                    "modelPropertiesResource": "mtr:train/sr_class730_srt/properties_42c1e7c9.json",
+                    "positionDefinitionsResource": "mtr:train/sr_class730_srt/definition_e7199dde.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:train/sr_class730_srt/srt_class730_bb.bbmodel",
+                    "textureResource": "",
+                    "modelPropertiesResource": "mtr:train/sr_class730_srt/properties_2130654.json",
+                    "positionDefinitionsResource": "mtr:train/sr_class730_srt/definition_d3cac910.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [],
+            "bogie2Models": [],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0.2,
+            "bveSoundBaseResource":"aventra",
+"legacySpeedSoundBaseResource":"",
+"legacySpeedSoundCount":115,
+"legacyUseAccelerationSoundsWhenCoasting":false,
+"legacyConstantPlaybackSpeed":false,
+"legacyDoorSoundBaseResource":"",
+"legacyDoorCloseSoundTime":1
+        },
+        {
+            "id": "mtr_custom_train_sr_class730_srt_panto5m_trailer",
+            "name": "Spawn Railways Class 730 (5m Panto) (Trailer)",
+            "color": "021c45",
+            "transportMode": "TRAIN",
+            "length": 25,
+            "width": 2,
+            "bogie1Position": -8.5,
+            "bogie2Position": 8.5,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "Spawn Railways Class 730 (5m Panto)",
+            "wikipediaArticle": "",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:train/sr_class730_srt/wmt_class730_m_lnwr.obj",
+                    "textureResource": "mtr:train/sr_class730_srt/wmt_class730",
+                    "modelPropertiesResource": "mtr:train/sr_class730_srt/properties_3427e387.json",
+                    "positionDefinitionsResource": "mtr:train/sr_class730_srt/definition_56df9e2f.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:train/sr_class730_srt/srt_class730_bb.bbmodel",
+                    "textureResource": "",
+                    "modelPropertiesResource": "mtr:train/sr_class730_srt/properties_2130654.json",
+                    "positionDefinitionsResource": "mtr:train/sr_class730_srt/definition_d3cac910.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [],
+            "bogie2Models": [],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0.2,
+            "bveSoundBaseResource":"aventra",
+"legacySpeedSoundBaseResource":"",
+"legacySpeedSoundCount":115,
+"legacyUseAccelerationSoundsWhenCoasting":false,
+"legacyConstantPlaybackSpeed":false,
+"legacyDoorSoundBaseResource":"",
+"legacyDoorCloseSoundTime":1
+        },
+        {
+            "id": "mtr_custom_train_sr_class730_srt_panto6m_trailer",
+            "name": "Spawn Railways Class 730 (6m Panto) (Trailer)",
+            "color": "021c45",
+            "transportMode": "TRAIN",
+            "length": 25,
+            "width": 2,
+            "bogie1Position": -8.5,
+            "bogie2Position": 8.5,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "Spawn Railways Class 730 (6m Panto)",
+            "wikipediaArticle": "",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:train/sr_class730_srt/wmt_class730_m_lnwr.obj",
+                    "textureResource": "mtr:train/sr_class730_srt/wmt_class730",
+                    "modelPropertiesResource": "mtr:train/sr_class730_srt/properties_752fe52c.json",
+                    "positionDefinitionsResource": "mtr:train/sr_class730_srt/definition_3b089dc4.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:train/sr_class730_srt/srt_class730_bb.bbmodel",
+                    "textureResource": "",
+                    "modelPropertiesResource": "mtr:train/sr_class730_srt/properties_2130654.json",
+                    "positionDefinitionsResource": "mtr:train/sr_class730_srt/definition_d3cac910.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [],
+            "bogie2Models": [],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0.2,
+            "bveSoundBaseResource":"aventra",
+"legacySpeedSoundBaseResource":"",
+"legacySpeedSoundCount":115,
+"legacyUseAccelerationSoundsWhenCoasting":false,
+"legacyConstantPlaybackSpeed":false,
+"legacyDoorSoundBaseResource":"",
+"legacyDoorCloseSoundTime":1
+        }
+    ],
+    "signs": [],
+    "rails": [],
+    "objects": []
+}

@@ -1,0 +1,121 @@
+{
+    "vehicles": [
+        {
+            "id": "mtr_custom_train_nsw_xplorer_front_cab_1",
+            "name": "Spawn Rail Xplorer DMU (Forwards)",
+            "color": "005BAB",
+            "transportMode": "TRAIN",
+            "length": 26,
+            "width": 2,
+            "bogie1Position": -8.84,
+            "bogie2Position": 8.84,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "Xplorer is a DMU introduced in the state of NSW in 1993. It operates mainly on long - distance routes within the state and operates from Sydney to Broken Hill, Armidale, Griffith, Moree, and Canberra. This train was produced by ABB Transportation.",
+            "wikipediaArticle": "",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:sr_xplorer/nswxplorerfront.obj",
+                    "textureResource": "mtr:sr_xplorer/nsw_endeavour",
+                    "modelPropertiesResource": "mtr:sr_xplorer/properties_bf8a2a8.json",
+                    "positionDefinitionsResource": "mtr:sr_xplorer/definition_4be1e5c0.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [],
+            "bogie2Models": [],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0.2,
+            "bveSoundBaseResource": "dm90",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_nsw_xplorer_back_cab_2",
+            "name": "Spawn Rail Xplorer DMU Back (Buffet) Cab (Backwards)",
+            "color": "005BAB",
+            "transportMode": "TRAIN",
+            "length": 26,
+            "width": 2,
+            "bogie1Position": -8.84,
+            "bogie2Position": 8.84,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "Xplorer is a DMU introduced in the state of NSW in 1993. It operates mainly on long - distance routes within the state and operates from Sydney to Broken Hill, Armidale, Griffith, Moree, and Canberra. This train was produced by ABB Transportation.",
+            "wikipediaArticle": "",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:sr_xplorer/nswxplorerback.obj",
+                    "textureResource": "mtr:sr_xplorer/nsw_endeavour",
+                    "modelPropertiesResource": "mtr:sr_xplorer/properties_edc21635.json",
+                    "positionDefinitionsResource": "mtr:sr_xplorer/definition_2ef9754a.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [],
+            "bogie2Models": [],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0.2,
+            "bveSoundBaseResource": "dm90",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_nsw_xplorer_carriage_trailer",
+            "name": "Spawn Rail Xplorer DMU Carriage (Trailer)",
+            "color": "005BAB",
+            "transportMode": "TRAIN",
+            "length": 26,
+            "width": 2,
+            "bogie1Position": -8.84,
+            "bogie2Position": 8.84,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "Xplorer is a DMU introduced in the state of NSW in 1993. It operates mainly on long - distance routes within the state and operates from Sydney to Broken Hill, Armidale, Griffith, Moree, and Canberra. This train was produced by ABB Transportation.",
+            "wikipediaArticle": "",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:sr_xplorer/nswxplorercoach.obj",
+                    "textureResource": "mtr:sr_xplorer/nsw_endeavour",
+                    "modelPropertiesResource": "mtr:sr_xplorer/properties_6e0a755f.json",
+                    "positionDefinitionsResource": "mtr:sr_xplorer/definition_e6990f5f.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [],
+            "bogie2Models": [],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0.2,
+            "bveSoundBaseResource": "dm90",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 0,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        }
+    ],
+    "signs": [],
+    "rails": [],
+    "objects": []
+}
