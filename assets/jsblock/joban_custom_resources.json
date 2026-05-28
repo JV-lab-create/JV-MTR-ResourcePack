@@ -24,7 +24,14 @@
     {
       "id": "awt",
       "name": "AWT PIDS TEST",
-      "scriptFiles": ["jsblock:scripts/awttest.js"]
+      "scriptFiles": ["jsblock:scripts/awttest.js"],
+      "thumbnail": "jsblock:textures/testpids.png"
+    },
+    {
+      "id": "dune_mosaic",
+      "name": "Dune Mosaic Floor PIDS",
+      "scriptFiles": ["jsblock:scripts/mosaic.js"],
+      "thumbnail": "jsblock:textures/mosaic/dune.png"
     }
     
   ]
